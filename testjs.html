@@ -5,17 +5,17 @@
     <title>Test JS</title>
 </head>
 <body>
-<h2>Возведение числа квадрат</h2>
+<h2>Прибавить случайное число</h2>
 <div>
     <input type="number" id="number">
 </div>
 <div>
-    <input type="button" value="pow" onclick="f_pow()">
+    <input type="button" value="pow" onclick="f()">
 </div>
 <script>
-    function f_pow() {
+    function f() {
         let n = parseInt(document.getElementById("number").value);
-        document.getElementById("number").value = n * n;
+        document.getElementById("number").value = n + Math.random() * 10 - 5;
     }
 </script>
 </body>
