@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test JS</title>
+</head>
+<body>
+<h2>Возведение числа квадрат</h2>
+<div>
+    <input type="number" id="number">
+</div>
+<div>
+    <input type="button" value="pow" onclick="f_pow()">
+</div>
+<script>
+    function f_pow() {
+        let n = parseInt(document.getElementById("number").value);
+        document.getElementById("number").value = n * n;
+    }
+</script>
+</body>
+</html>
