@@ -1,0 +1,93 @@
+<style>
+
+
+    @font-face{
+        font-family: "Sacramento";
+        src: url("Sacramento-Regular.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "OpenSans";
+        src: url("OpenSans-Regular.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "OpenSansSemiBold";
+        src: url("OpenSans-Semibold.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "OpenSansBold";
+        src: url("OpenSans-Bold.ttf") format("truetype");
+    }
+
+    .top-nav * {
+        display: inline-block;
+    }
+
+    .left-top-nav {
+        justify-content: left;
+    }
+
+    .right-top-nav {
+        right: 50px;
+    }
+
+    .title-top-nav {
+        font-family: Sacramento;
+        font-size: 32px;
+    }
+
+    .menu-top-nav * {
+        font-family: OpenSansSemiBold;
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+        margin-left: 79px;
+    }
+
+    .right-top-nav button {
+        font-family: OpenSansBold;
+        font-size: 15px;
+        height: 45px;
+        width: 223px;
+        background-color: white;
+        color: #954F25;
+        border-color: #954F25;
+        border-style: solid;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    #lang {
+        font-family: OpenSansSemiBold;
+        font-size: 15px;
+        border-width: 0;
+        margin-left: 79px;
+        margin-right: 50px;
+    }
+
+
+</style>
+<div class="top-nav">
+    <div class="left-top-nav">
+        <p class="title-top-nav">
+            Bienestar
+        </p>
+        <div class="menu-top-nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Products</a>
+            <a href="">Contact</a>
+        </div>
+
+    </div>
+    <div class="right-top-nav">
+        <select name="lang" id="lang">
+            <option value="eng">EN</option>
+            <option value="rus">RU</option>
+        </select>
+        <button>Book an appointment</button>
+    </div>
+
+</div>
